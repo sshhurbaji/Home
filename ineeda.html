@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>I need A</title>
+
+    <link rel="stylesheet" href="ineeda.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="header">
+
+        <nav class="top-shit">
+
+            <img src="images/ineeda project logo copy yes yes.png" alt="I need A logo">
+
+        </nav>
+
+        <div class="info">
+
+            <h1>
+                La mejor manera de comprar <br> 
+                lo que quieres
+            </h1>
+
+            <p>
+                Cansado de tener que usar horas de tu tiempo <br>
+                buscando algo que quieres comprar?, Lo hacemos por ti!!
+            </p>
+
+            <h3>
+                La simplesa y eficiencia <br> 
+                ahora en Costa Rica
+            </h3>
+
+        </div>
+
+        <div class="input-bars">
+
+            <form action="https://formspree.io/f/xgebpjoj" method="post">
+
+                <label for="what-you-want">Que es lo que quieres?</label>
+
+                <input class="what-you-want" type="text" placeholder="Escribe lo que quieres" id="what-you-want" name="what-you-want" required><br>
+
+                <label for="describe-what-you-want">Describe lo que quieres</label>
+
+                <textarea class="describe-what-you-want" placeholder="Escribe una descripcion" id="describe-what-you-want" name="describe-what-you-want" cols="30" rows="10" required></textarea><br>
+
+                <label for="currency-selector">Elija la moneda</label>
+
+                <select class="presupuesto-symbol" id="currency-selector" name="currency-selector">
+
+                    <option value="dollars" selected>$</option>
+
+                    <option value="colones">₡</option>
+
+                </select>
+
+                <input class="presupuesto" type="number" placeholder="Escribe tu presupuesto" id="presupuesto" name="presupuesto" required>
+
+                <div class="send">
+
+                    <h2>
+                        Mandaremos el resultado de la busqueda a:
+                    </h2>
+
+                    <i class="fa fa-whatsapp"></i>
+
+                    <input type="text" id="phone-number" name="phone-number" placeholder="Escribe tu numero de telefono" required>
+
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="ineeda.js"></script>
+
+</body>
+</html>
